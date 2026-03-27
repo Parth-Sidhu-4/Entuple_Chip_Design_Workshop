@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+mealy_1010_1011.v
+mealy_1010_1011_tb.v
+-access
++rwc
+-gui
+-coverage
+all

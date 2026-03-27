@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(26Mar2026:05:57:01):( xrun TrafficLight_FSM.v )
+s2::(26Mar2026:05:57:19):( xrun TrafficLight_FSM.v )
+s3::(26Mar2026:05:57:55):( xrun TrafficLight_FSM.v TrafficLight_FSM_tb.v -access +rwc -gui -coverage all )
+s4::(26Mar2026:16:08:34):( xrun TrafficLight_FSM.v TrafficLight_FSM_tb.v -access +rwc -gui -coverage all )

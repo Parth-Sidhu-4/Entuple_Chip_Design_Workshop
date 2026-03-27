@@ -1,0 +1,1 @@
+s1(26Mar2026:06:05:21):  xrun mealy_1010_1011.v mealy_1010_1011_tb.v -access +rwc -gui -coverage all 

@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+lfsr.v
+lfsr_tb.v
+-access
++rwc
+-gui

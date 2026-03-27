@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+TrafficLight_FSM.v
+TrafficLight_FSM_tb.v
+-access
++rwc
+-gui
+-coverage
+all

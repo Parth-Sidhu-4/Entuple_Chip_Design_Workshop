@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(26Mar2026:03:29:00):( xrun seq_detect_mealy_1010.v -access +rwc -gui )
+s2::(26Mar2026:04:55:35):( xrun seq_detect_mealy_1010.v seq_detect_mealy_1010_tb.v -access +rwc -gui )
+s3::(26Mar2026:05:33:38):( xrun seq_detect_mealy_1010.v seq_detect_mealy_1010_tb.v -access +rwc -gui -coverage all )
+s4::(26Mar2026:05:53:49):( xrun seq_detect_mealy_1010.v seq_detect_mealy_1010_tb.v -access +rwc -gui -coverage all )

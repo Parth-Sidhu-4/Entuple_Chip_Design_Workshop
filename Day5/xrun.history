@@ -1,0 +1,8 @@
+s1(27Mar2026:11:22:19):  xrun memory.v memory_tb.v -access +rwc -gui 
+s2(27Mar2026:12:25:26):  xrun memory.v memory_tb.v -access +rwc 
+s3(27Mar2026:12:25:47):  xrun memory.v memory_tb.v -access +rwc -coverage all 
+s4(27Mar2026:12:26:02):  xrun memory.v memory_tb.v -access +rwc -gui -coverage all 
+s5(27Mar2026:12:29:46):  xrun memory.v memory_tb.v -access +rwc -gui -coverage all 
+s6(27Mar2026:12:33:28):  xrun memory.v memory_tb.v -access +rwc -gui -coverage all 
+s7(27Mar2026:12:35:34):  xrun memory.v memory_tb.v -access +rwc -gui -coverage all 
+s8(27Mar2026:12:40:53):  xrun memory.v memory_tb.v -access +rwc -gui -coverage all 

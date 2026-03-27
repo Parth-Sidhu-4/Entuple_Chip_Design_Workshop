@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(25Mar2026:02:54:31):( xrun multiplier.v multiplier_tb.v -access +rwc -gui )
+s2::(25Mar2026:02:56:15):( xrun multiplier.v multiplier_tb.v -access +rwc -gui )
+s3::(25Mar2026:03:16:51):( xrun multiplier.v multiplier_tb.v -access +rwc -gui )
+s4::(25Mar2026:03:17:17):( xrun half_adder.v multiplier.v multiplier_tb.v -access +rwc -gui )
+s5::(25Mar2026:04:48:53):( xrun multiplier.v multiplier_tb.v -access +rwc -gui )
+s6::(25Mar2026:04:49:16):( xrun multiplier.v multiplier_tb.v -access +rwc -gui )

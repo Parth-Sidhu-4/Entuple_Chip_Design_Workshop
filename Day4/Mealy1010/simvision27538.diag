@@ -1,0 +1,84 @@
+*** Message Type: info ***
+When: Thu Mar 26 05:53:53 AM EDT 2026
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s012
+User: user023
+Host: ECE-23.gsv.ac.in
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Thu Mar 26 05:53:53 AM EDT 2026
+Command: /home/install/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ECE-23.gsv.ac.in:41528 -64BIT -nocopyright
+Work Directory: /home/user023/Desktop/Entuple Chip Design Workshop/Day4/Mealy1010
+ 
+*** Message Type: info ***
+When: Thu Mar 26 05:53:53 AM EDT 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 05:53:54 AM EDT 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 05:53:54 AM EDT 2026
+Connect to Simulator
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Thu Mar 26 05:53:52 AM EDT 2026
+  Process ID: 27523
+   Directory: /home/user023/Desktop/Entuple Chip Design Workshop/Day4/Mealy1010
+     Command: xrun seq_detect_mealy_1010.v seq_detect_mealy_1010_tb.v -access +rwc -gui -coverage all
+
+ 
+*** Message Type: info ***
+When: Thu Mar 26 05:53:55 AM EDT 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Thu Mar 26 06:37:41 AM EDT 2026
+Exit XM-Sim: user
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Thu Mar 26 05:53:52 AM EDT 2026
+  Process ID: 27523
+   Directory: /home/user023/Desktop/Entuple Chip Design Workshop/Day4/Mealy1010
+     Command: xrun seq_detect_mealy_1010.v seq_detect_mealy_1010_tb.v -access +rwc -gui -coverage all
+
+ 
+*** Message Type: error ***
+When: Thu Mar 26 06:37:41 AM EDT 2026
+XM-Sim Crashed:
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Thu Mar 26 05:53:52 AM EDT 2026
+  Process ID: 27523
+   Directory: /home/user023/Desktop/Entuple Chip Design Workshop/Day4/Mealy1010
+     Command: xrun seq_detect_mealy_1010.v seq_detect_mealy_1010_tb.v -access +rwc -gui -coverage all
+      Design: worklib.seq_det_1010_mealy_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Thu Mar 26 05:53:52 AM EDT 2026
+  Process ID: 27523
+   Directory: /home/user023/Desktop/Entuple Chip Design Workshop/Day4/Mealy1010
+     Command: xrun seq_detect_mealy_1010.v seq_detect_mealy_1010_tb.v -access +rwc -gui -coverage all
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Thu Mar 26 06:37:42 AM EDT 2026
+SimVision Exit.
+ 

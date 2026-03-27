@@ -1,0 +1,96 @@
+*** Message Type: info ***
+When: Wed Mar 25 07:39:46 AM EDT 2026
+SimVision started.
+Version: TOOL:  simvision(64)   20.09-s012
+User: user023
+Host: ECE-23.gsv.ac.in
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Wed Mar 25 07:39:46 AM EDT 2026
+Command: /home/install/XCELIUM2009/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:ECE-23.gsv.ac.in:39626 -64BIT -nocopyright
+Work Directory: /home/user023/Desktop/Workshop/Day3/LFSR
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:39:47 AM EDT 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:39:48 AM EDT 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:39:48 AM EDT 2026
+Connect to Simulator
+      Design: worklib.lfsr_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:  xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Wed Mar 25 07:39:46 AM EDT 2026
+  Process ID: 14358
+   Directory: /home/user023/Desktop/Workshop/Day3/LFSR
+     Command: xrun lfsr.v lfsr_tb.v -access +rwc -gui
+
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:39:49 AM EDT 2026
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:39:54 AM EDT 2026
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:40:04 AM EDT 2026
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:40:05 AM EDT 2026
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:40:09 AM EDT 2026
+Exit XM-Sim: user
+      Design: worklib.lfsr_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:  xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Wed Mar 25 07:39:46 AM EDT 2026
+  Process ID: 14358
+   Directory: /home/user023/Desktop/Workshop/Day3/LFSR
+     Command: xrun lfsr.v lfsr_tb.v -access +rwc -gui
+
+ 
+*** Message Type: error ***
+When: Wed Mar 25 07:40:09 AM EDT 2026
+XM-Sim Crashed:
+      Design: worklib.lfsr_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:  xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Wed Mar 25 07:39:46 AM EDT 2026
+  Process ID: 14358
+   Directory: /home/user023/Desktop/Workshop/Day3/LFSR
+     Command: xrun lfsr.v lfsr_tb.v -access +rwc -gui
+      Design: worklib.lfsr_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:   xmsim(64)       20.09-s012
+        User: user023
+        Host: ECE-23.gsv.ac.in
+Time Started: Wed Mar 25 07:39:46 AM EDT 2026
+  Process ID: 14358
+   Directory: /home/user023/Desktop/Workshop/Day3/LFSR
+     Command: xrun lfsr.v lfsr_tb.v -access +rwc -gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Wed Mar 25 07:40:12 AM EDT 2026
+SimVision Exit.
+ 

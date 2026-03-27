@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+half_adder.v
+half_adder_tb.v
+-access
++rwc
+-gui
+-coverage
+all

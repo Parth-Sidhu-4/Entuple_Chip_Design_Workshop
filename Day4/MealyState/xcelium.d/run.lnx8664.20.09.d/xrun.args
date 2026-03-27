@@ -1,0 +1,8 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+seq_det_11_mealy.v
+-access
++rwc
+-gui

@@ -1,0 +1,5 @@
+s1(26Mar2026:01:54:47):  xrun seq_detect_moore_11.v seq_detect_moore_11_tb.v -access +rwc -gui 
+s2(26Mar2026:01:55:30):  xrun seq_detect_moore_11_tb.v -access +rwc -gui 
+s3(26Mar2026:01:55:49):  xrun seq_detect_moore_11_tb.v -access +rwc -gui 
+s4(26Mar2026:02:42:39):  xrun seq_detect_moore_11_tb.v -access +rwc -gui 
+s5(26Mar2026:02:43:04):  xrun seq_detect_moore_11_tb.v -access +rwc -gui 

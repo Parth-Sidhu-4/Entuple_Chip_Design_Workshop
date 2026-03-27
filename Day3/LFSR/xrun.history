@@ -1,0 +1,2 @@
+s1(25Mar2026:07:38:34):  xrun lfsr.v lfsr_tb.v -access +rwc -gui 
+s2(25Mar2026:07:39:44):  xrun lfsr.v lfsr_tb.v -access +rwc -gui 

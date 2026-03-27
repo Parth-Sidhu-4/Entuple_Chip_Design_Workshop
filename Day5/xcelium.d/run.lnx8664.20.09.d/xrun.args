@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+memory.v
+memory_tb.v
+-access
++rwc
+-gui
+-coverage
+all

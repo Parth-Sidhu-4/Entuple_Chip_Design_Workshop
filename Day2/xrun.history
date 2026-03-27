@@ -1,0 +1,8 @@
+s1(24Mar2026:18:24:30):  xrun mux.v mux_tb.v -access +rwc -gui 
+s2(24Mar2026:18:26:23):  xrun mux.v mux_tb.v -access +rwc -gui 
+s3(24Mar2026:18:27:38):  xrun mux.v mux_tb.v -access +rwc -gui 
+s4(24Mar2026:18:28:35):  xrun mux.v mux_tb.v -access +rwc -gui 
+s5(24Mar2026:18:29:33):  xrun mux.v mux_tb.v -access +rwc -gui 
+s6(24Mar2026:18:33:27):  xrun mux.v mux_tb.v -access +rwc -gui 
+s7(24Mar2026:18:39:09):  xrun mux.v mux_tb.v -access +rwc -gui 
+s8(24Mar2026:19:02:26):  xrun mux.v mux_tb.v -access +rwc -gui 
