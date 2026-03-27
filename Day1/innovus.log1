@@ -1,0 +1,23 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+Options:	
+Date:		Fri Mar 27 16:10:48 2026
+Host:		ECE-23.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (51 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+**ERROR: (IMPQTF-4044):	Error happens when execute 'rdaGetRelativeFileName /home/user023/Desktop/Entuple Chip Design Workshop/Day1/counter_netlist.v' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+**ERROR: (IMPQTF-4044):	Error happens when execute 'rdaGetRelativeFileName /home/user023/Desktop/Entuple Chip Design Workshop/Day1/counter_tool.sdc' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+**ERROR: (IMPQTF-4044):	Error happens when execute 'rdaGetRelativeFileName /home/user023/Desktop/Entuple Chip Design Workshop/Day1/counter_netlist.v' with error message: ''.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
