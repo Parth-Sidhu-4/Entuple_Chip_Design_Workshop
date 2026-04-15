@@ -1,0 +1,174 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.11-s111_1, built Mon Apr 26 02:27:38 PDT 2021
+Options: 
+Date:    Mon Mar 30 15:19:21 2026
+Host:    ECE-23.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*1physical cpu*13th Gen Intel(R) Core(TM) i7-13700F 30720KB) (15876260KB)
+PID:     22975
+OS:      Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: This version of the tool is 1799 days old.
+@genus:root: 1> source run_2GHz.tcl
+Sourcing './run_2GHz.tcl' (Mon Mar 30 15:19:38 IST 2026)...
+#@ Begin verbose source ./run_2GHz.tcl
+@file(run_2GHz.tcl) 2: set_db init_lib_search_path /home/install/FOUNDRY/digital/45nm/LIBS/lib/max
+  Setting attribute of root '/': 'init_lib_search_path' = /home/install/FOUNDRY/digital/45nm/LIBS/lib/max
+@file(run_2GHz.tcl) 3: set_db lef_library /home/install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
+
+  According to lef_library, there are total 9 routing layers [ V(4) / H(5) ]
+
+  Setting attribute of root '/': 'lef_library' = /home/install/FOUNDRY/digital/45nm/LIBS/lef/gsclib045.fixed.lef
+@file(run_2GHz.tcl) 5: set_db library  slow.lib    
+
+Threads Configured:3
+
+  Message Summary for Library slow.lib:
+  *************************************
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  Missing library level attribute. [LBR-516]: 1
+  *************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.080000, 125.000000) in library 'slow.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/ADDFHX2'.
+        : Specify a valid area value for the libcell.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/ADDFHX4'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/ADDFHXL'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/ADDFXL'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/ADDHX2'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/ADDHXL'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND2X4'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND2X6'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND2XL'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND3X1'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND3X8'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND3XL'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND4X1'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND4X4'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND4X8'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AND4XL'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AO21X1'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AO21X2'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AO21XL'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'gpdk045bc/AO22X1'.
+  Library has 291 usable logic and 126 usable sequential lib-cells.
+Warning : Inconsistency detected among the units specified in the timing libraries being used. [LBR-714]
+        : Libraries with inconsistent time/capacitance units were loaded.
+        : Default system time/capacitance unit will be used.
+  Setting attribute of root '/': 'library' = slow.lib
+@file(run_2GHz.tcl) 6: read_hdl {./seq_detect_mealy_1010}
+Warning : Cannot open file. [VLOGPT-650]
+        : File './seq_detect_mealy_1010'.
+        : The specified file could not be opened.  Check the value of the init_hdl_search_path attribute.
+@file(run_2GHz.tcl) 7: elaborate
+UM:   flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   elaborate
+@file(run_2GHz.tcl) 8: read_sdc ./constraints_top_2GHz.sdc
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [::dc::get_ports]
+        : There is no design here.
+        : A design must first be read in with 'read_hdl' command and elaborated with 'elaborate' command.
+Error   : A required object parameter could not be found. [TUI-61] [parse_options]
+        : An object of type 'port|pin|hpin' named 'find_unique_design' could not be found.
+        : Check to make sure that the object exists and is of the correct type.  The 'what_is' command can be used to determine the type of an object.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '1' of the SDC file './constraints_top_2GHz.sdc': create_clock -name clk -period 0.5 -waveform {0 0.25} [get_ports 'clk'].
+        : The 'read_sdc' command encountered a problem while trying to evaluate an SDC command. This SDC command will be added to the Tcl variable $::dc::sdc_failed_commands.
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [::dc::get_clocks]
+        : There is no design here.
+Failed on finding the unique design.
+Error   : A required object parameter could not be found. [TUI-61] [parse_options]
+        : An object of type 'clock' named '1' could not be found.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '2' of the SDC file './constraints_top_2GHz.sdc': set_clock_transition -rise 0.05 [get_clocks 'clk'].
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [::dc::get_clocks]
+        : There is no design here.
+Failed on finding the unique design.
+Error   : A required object parameter could not be found. [TUI-61] [parse_options]
+        : An object of type 'clock' named '1' could not be found.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '3' of the SDC file './constraints_top_2GHz.sdc': set_clock_transition -fall 0.05 [get_clocks 'clk'].
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [::dc::get_ports]
+        : There is no design here.
+Error   : A required object parameter could not be found. [TUI-61] [parse_options]
+        : An object of type 'clock|port|inst|hinst|pin|hpin' named 'find_unique_design' could not be found.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '4' of the SDC file './constraints_top_2GHz.sdc': set_clock_uncertainty 0.005 [get_ports 'clk'].
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [::dc::get_ports]
+        : There is no design here.
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [::dc::get_clocks]
+        : There is no design here.
+Failed on finding the unique design.
+Error   : A required object parameter could not be found. [TUI-61] [parse_options]
+        : An object of type 'port|pin|hpin|port_bus' named 'Failed' could not be found.
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The 'read_sdc' command encountered an error while processing this command on line '5' of the SDC file './constraints_top_2GHz.sdc': set_input_delay -max 0.1 [get_ports 'rst'] -clock [get_clocks 'clk'].
+Error   : Could not interpret SDC command. [SDC-202] [read_sdc]
+        : The TCL interpreter encountered the following error while processing line '5' of the SDC file './constraints_top_2GHz.sdc': missing close-bracket.
+Error   : No designs are available. A design must first be read in and elaborated. [TUI-10] [read_sdc]
+        : There is no design here.
+Statistics for commands executed by read_sdc:
+ "create_clock"             - successful      0 , failed      1 (runtime  0.00)
+ "get_clocks"               - successful      0 , failed      3 (runtime  0.00)
+ "get_ports"                - successful      0 , failed      3 (runtime  0.00)
+ "set_clock_transition"     - successful      0 , failed      2 (runtime  0.00)
+ "set_clock_uncertainty"    - successful      0 , failed      1 (runtime  0.00)
+ "set_input_delay"          - successful      0 , failed      1 (runtime  0.00)
+Warning : Total failed commands during read_sdc are 11
+Warning : One or more commands failed when these constraints were applied. [SDC-209]
+        : The 'read_sdc' command encountered a problem while processing commands.
+        : You can examine the failed commands or save them to a file by querying the Tcl variable $::dc::sdc_failed_commands.
+read_sdc completed in 00:00:00 (hh:mm:ss)
+@file(run_2GHz.tcl) 11: set_db syn_generic_effort medium
+  Setting attribute of root '/': 'syn_generic_effort' = medium
+@file(run_2GHz.tcl) 12: set_db syn_map_effort  medium
+  Setting attribute of root '/': 'syn_map_effort' = medium
+@file(run_2GHz.tcl) 13: set_db syn_opt_effort  medium
+  Setting attribute of root '/': 'syn_opt_effort' = medium
+@file(run_2GHz.tcl) 15: syn_generic
+      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
+UM:*                                                                   syn_gen
+#@ End verbose source ./run_2GHz.tcl
+1
+
+Another Ctrl-C within 1 second will terminate the tool.
+CURRENT RESOURCES: RT {elapsed: 47s, ST: 5s, FG: 5s, CPU: 4.1%}, MEM {curr: 1.0G, peak: 1.0G, phys curr: 0.3G, phys peak: 0.3G}, SYS {load: 0.1, cpu: 24, total: 15.1G, free: 3.7G}
+@genus:root: 2> 
+@genus:root: 2> exut
+invalid command name "exut"
+@genus:root: 3> exit
+Normal exit.

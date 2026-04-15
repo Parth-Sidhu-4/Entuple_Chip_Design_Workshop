@@ -7,7 +7,7 @@ module seq_det_1010_mealy(
   parameter S0=0, S1=1, S2=2, S3=3; 
   reg [2:0] state, next_state;
   // state transistion
-  always @(posedge clk or reset)
+  always @(posedge clk or posedge reset)
    begin 
      if (reset) 
       state<=S0;

@@ -250,20 +250,20 @@
 "object":"/designs/counter/instances_seq/count_reg[0]",
 "type":"instance"},
 {"index": "1", 
- "date": "Mon Mar 30 09:26:18 UTC 2026",
- "seconds": 1774862778.671113,
+ "date": "Mon Mar 30 09:41:17 UTC 2026",
+ "seconds": 1774863677.523831,
  "netlist": "fv/counter/fv_map.v.gz", 
  "netlist_exists": "1", 
- "netlist_normalize": "/home/user023/Desktop/EntupleChipDesignWorkshop/Day1/fv/counter/fv_map.v.gz", 
- "netlist_mtime": "1774862778", 
- "netlist_timestamp": "Mon Mar 30 09:26:18 UTC 2026", 
+ "netlist_normalize": "/home/user023/Desktop/EntupleChipDesignWorkshop/Day4/Mealy1010/fv/counter/fv_map.v.gz", 
+ "netlist_mtime": "1774863677", 
+ "netlist_timestamp": "Mon Mar 30 09:41:17 UTC 2026", 
  "netlist_size": "1245", 
- "netlist_cksum": "4140638823", 
+ "netlist_cksum": "3990840465", 
  "design_name": "counter", 
- "synth_workdir": "/home/user023/Desktop/EntupleChipDesignWorkshop/Day1", 
+ "synth_workdir": "/home/user023/Desktop/EntupleChipDesignWorkshop/Day4/Mealy1010", 
  "synthesis_command":"",
  "current_label": "fv_map", 
  "previous_label": "rtl", 
- "write_verif_file_runtime": 0.357317 
+ "write_verif_file_runtime": 0.350228 
  }
 ]

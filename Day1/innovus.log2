@@ -1723,3 +1723,15 @@ Generated self-contained design counter_ROUTED.ENC.dat
 #% End save design ... (date=03/27 17:10:31, total cpu=0:00:00.3, real=0:00:01.0, peak res=1405.8M, current mem=1405.8M)
 *** Message Summary: 0 warning(s), 0 error(s)
 
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Fri Mar 27 17:13:20 2026
+  Total CPU time:     0:06:28
+  Total real time:    0:34:58
+  Peak memory (main): 1618.12MB
+
+
+*** Memory Usage v#1 (Current mem = 1892.102M, initial mem = 284.301M) ***
+*** Message Summary: 1565 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:06:27, real=0:34:57, mem=1892.1M) ---

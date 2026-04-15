@@ -1,0 +1,9 @@
+# Cadence Genus(TM) Synthesis Solution, Version 20.11-s111_1, built Apr 26 2021 14:57:38
+
+# Date: Mon Mar 30 15:19:21 2026
+# Host: ECE-23.gsv.ac.in (x86_64 w/Linux 3.10.0-1160.119.1.el7.x86_64) (12cores*24cpus*1physical cpu*13th Gen Intel(R) Core(TM) i7-13700F 30720KB)
+# OS:   Red Hat Enterprise Linux Server release 7.9 (Maipo)
+
+source run_2GHz.tcl
+exut
+exit
